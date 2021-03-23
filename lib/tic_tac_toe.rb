@@ -2,7 +2,7 @@ class TicTacToe
   #initialize
   #assigns an instance variable @board to array with 9 blank spaces " "    
   def initialize
-    @board = []
+    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end 
   #define WIN_COMBINATIONS constant within ttt class = to nested array filled
   #with winning combinations
