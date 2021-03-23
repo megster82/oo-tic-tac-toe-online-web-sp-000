@@ -33,7 +33,8 @@ class TicTacToe
   end
   
   #move method  
-  def move
+  def move(index, token = "X")
+    board[index] = current_player
   end
 
   #position_taken?
