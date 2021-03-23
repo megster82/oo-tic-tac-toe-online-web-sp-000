@@ -6,9 +6,9 @@ class TicTacToe
   
   #define WIN_COMBINATIONS constant within ttt class = to nested array filled
   #with winning combinations
-
-
-
+  WIN_COMBINATIONS = [
+    
+    ]
 
   
   def display_board
