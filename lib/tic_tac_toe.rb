@@ -49,7 +49,7 @@ class TicTacToe
   #valid_move? method that accepts a position to check and returns true
   #if move is valid, false or nil if not
   def valid_move?(index)
-    if (@board[index] == " " || @board[index] == "") && index.between?(1, 9)
+    if position_taken?(index) == false && index.between?(1, 9)
       true
     else
       false 
