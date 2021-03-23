@@ -48,8 +48,11 @@ class TicTacToe
 
   #valid_move? method that accepts a position to check and returns true
   #if move is valid, false or nil if not
-  def valid_move?
-
+  def valid_move?(position)
+    if !position_taken?
+      true
+    else
+  end
   end
 
   def turn_count
