@@ -95,6 +95,7 @@ class TicTacToe
       else
     end
     return nil
+  end 
   end
   
   def full?
