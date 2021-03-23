@@ -11,7 +11,7 @@ class TicTacToe
     ]
 
   
-  def display_board(board)
+  def display_board
     #define method that prints current board based on @board inst variable
     puts " #{board[0]} |  #{board[1]} |  #{board[2]}"
     puts "-----------"
