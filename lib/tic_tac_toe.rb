@@ -38,7 +38,11 @@ class TicTacToe
   end
 
   #position_taken?
-  def position_taken?
+  def position_taken?(position)
+    if position == "X" || position == "O"
+      true
+    else
+      false 
   end
 
   #valid_move? method that accepts a position to check and returns true
