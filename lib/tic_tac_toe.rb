@@ -90,7 +90,11 @@ class TicTacToe
       position1 = @board[win_index_1]
       position2 = @board[win_index_2]
       position3 = @board[win_index_3]
-      
+      if ((position1 == "X" && position2 == "X" && position3 == "X") || (position1 == "O" && position2 == "O" && position3 == "O"))
+        return win_combination
+      else
+    end
+    return nil
   end
   
   def full?
