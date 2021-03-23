@@ -65,6 +65,7 @@ class TicTacToe
         turns +=
       end
     end
+    return turns 
   end
   
   def current_player
