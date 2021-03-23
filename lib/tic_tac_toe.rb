@@ -108,6 +108,7 @@ class TicTacToe
       true
     else
       false
+    end 
   end
   
   def over?
