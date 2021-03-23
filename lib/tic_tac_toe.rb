@@ -112,8 +112,7 @@ class TicTacToe
   end
   
   def over?
-  
-  
+    if draw? || won?
   end
 
   def winner
