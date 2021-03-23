@@ -64,7 +64,6 @@ class TicTacToe
       if space == "X" || space == "O"
         turns +=
       end
-    end
   end
   
   def current_player
