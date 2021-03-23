@@ -11,8 +11,8 @@ class TicTacToe
     ]
 
   
-  def display_board
-    #define method that prints current board based on @board instance variable
+  def display_board(board)
+    #define method that prints current board based on @board inst variable
     @board 
 
   end
