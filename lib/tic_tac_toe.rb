@@ -113,6 +113,9 @@ class TicTacToe
   
   def over?
     if draw? || won?
+      true
+    else
+    end
   end
 
   def winner
