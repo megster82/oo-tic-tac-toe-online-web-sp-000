@@ -91,8 +91,6 @@ class TicTacToe
       position2 = @board[win_index_2]
       position3 = @board[win_index_3]
       
-
-
   end
   
   def full?
