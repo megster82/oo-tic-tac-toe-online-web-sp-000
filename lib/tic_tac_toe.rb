@@ -43,6 +43,7 @@ class TicTacToe
       true
     else
       false 
+    end 
   end
 
   #valid_move? method that accepts a position to check and returns true
